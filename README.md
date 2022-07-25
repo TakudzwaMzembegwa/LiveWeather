@@ -1,5 +1,6 @@
 # Live Weather
-
+Live weather systems using 2 different protocols (WebSockets and MQTT).
+The systems get temperature, humidity and pressure readings from sensors on a Raspberry Pi. From the Raspberry Pi sensors the data is then saved into an embedded database. Using WebSockets or MQTT the data is continuously transported to the dashboard(s).
 ## MQTT
 ### Architecture
 ![MQTT](https://github.com/TakudzwaMzembegwa/LiveWeather/blob/master/assets/images/MQTT.JPG)
